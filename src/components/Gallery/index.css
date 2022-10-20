@@ -1,0 +1,39 @@
+.container {
+  background-color: #ffffff;
+  height: 100vh;
+  padding: 20px;
+}
+@media screen and (min-width: 768px) {
+  .thumbnail-container {
+    display: flex;
+  }
+}
+.heading {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  margin-left: 50px;
+}
+.description {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #64748b;
+  margin-left: 50px;
+}
+.thumbnail-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.image {
+  height: 40%;
+  width: 30%;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    height: 70%;
+    width: 50%;
+  }
+}
